@@ -7,35 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		58161EB222186A7700423400 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58161EB122186A7700423400 /* AppDelegate.swift */; };
-		58161EB422186A7700423400 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58161EB322186A7700423400 /* ViewController.swift */; };
-		58161EB722186A7700423400 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58161EB522186A7700423400 /* Main.storyboard */; };
-		58161EBA22186A7700423400 /* DecodersDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 58161EB822186A7700423400 /* DecodersDemo.xcdatamodeld */; };
-		58161EBC22186A7700423400 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58161EBB22186A7700423400 /* Assets.xcassets */; };
-		58161EBF22186A7700423400 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58161EBD22186A7700423400 /* LaunchScreen.storyboard */; };
-		58AA346522199FD8003C1ABF /* CodesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AA346422199FD8003C1ABF /* CodesVC.swift */; };
-		58B4538022193693002E8756 /* FIleToDownloadData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B4537F22193693002E8756 /* FIleToDownloadData.swift */; };
-		58B4538222193938002E8756 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B4538122193938002E8756 /* ChatVC.swift */; };
-		58B4538522195173002E8756 /* Chats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B4538422195173002E8756 /* Chats.swift */; };
-		58B4538722197E0A002E8756 /* Codes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B4538622197E0A002E8756 /* Codes.swift */; };
-		58EBD11A2219A4E1005CF14D /* CodesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EBD1192219A4E1005CF14D /* CodesTVC.swift */; };
+		58A44871221B2FBA005139C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A44868221B2FBA005139C3 /* AppDelegate.swift */; };
+		58A44876221B2FBA005139C3 /* DecodersDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 58A4486D221B2FBA005139C3 /* DecodersDemo.xcdatamodeld */; };
+		58A44878221B2FBA005139C3 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 58A44870221B2FBA005139C3 /* Podfile */; };
+		58A44888221B3029005139C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58A44881221B3029005139C3 /* Assets.xcassets */; };
+		58A44889221B3029005139C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A44884221B3029005139C3 /* ViewController.swift */; };
+		58A4488A221B3029005139C3 /* CodesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A44885221B3029005139C3 /* CodesTVC.swift */; };
+		58A4488B221B3029005139C3 /* CodesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A44886221B3029005139C3 /* CodesVC.swift */; };
+		58A4488C221B3029005139C3 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A44887221B3029005139C3 /* ChatVC.swift */; };
+		58A44891221B3054005139C3 /* FIleToDownloadData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A4488E221B3054005139C3 /* FIleToDownloadData.swift */; };
+		58A44892221B3054005139C3 /* Chats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A4488F221B3054005139C3 /* Chats.swift */; };
+		58A44893221B3054005139C3 /* Codes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A44890221B3054005139C3 /* Codes.swift */; };
+		58A44896221B30A9005139C3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 58A44894221B3081005139C3 /* Info.plist */; };
+		58A4489B221B3280005139C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58A44897221B327F005139C3 /* LaunchScreen.storyboard */; };
+		58A4489C221B3280005139C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58A44899221B3280005139C3 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		58161EAE22186A7700423400 /* DecodersDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DecodersDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		58161EB122186A7700423400 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		58161EB322186A7700423400 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		58161EB622186A7700423400 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		58161EB922186A7700423400 /* DecodersDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DecodersDemo.xcdatamodel; sourceTree = "<group>"; };
-		58161EBB22186A7700423400 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		58161EBE22186A7700423400 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		58161EC022186A7700423400 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		58AA346422199FD8003C1ABF /* CodesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodesVC.swift; sourceTree = "<group>"; };
-		58B4537F22193693002E8756 /* FIleToDownloadData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIleToDownloadData.swift; sourceTree = "<group>"; };
-		58B4538122193938002E8756 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
-		58B4538422195173002E8756 /* Chats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chats.swift; sourceTree = "<group>"; };
-		58B4538622197E0A002E8756 /* Codes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codes.swift; sourceTree = "<group>"; };
-		58EBD1192219A4E1005CF14D /* CodesTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodesTVC.swift; sourceTree = "<group>"; };
+		58A44855221B2F01005139C3 /* DecodersDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DecodersDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		58A44868221B2FBA005139C3 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		58A4486E221B2FBA005139C3 /* DecodersDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DecodersDemo.xcdatamodel; sourceTree = "<group>"; };
+		58A44870221B2FBA005139C3 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		58A44881221B3029005139C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58A44884221B3029005139C3 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		58A44885221B3029005139C3 /* CodesTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodesTVC.swift; sourceTree = "<group>"; };
+		58A44886221B3029005139C3 /* CodesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodesVC.swift; sourceTree = "<group>"; };
+		58A44887221B3029005139C3 /* ChatVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		58A4488E221B3054005139C3 /* FIleToDownloadData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FIleToDownloadData.swift; sourceTree = "<group>"; };
+		58A4488F221B3054005139C3 /* Chats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chats.swift; sourceTree = "<group>"; };
+		58A44890221B3054005139C3 /* Codes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Codes.swift; sourceTree = "<group>"; };
+		58A44894221B3081005139C3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58A44898221B327F005139C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		58A4489A221B3280005139C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +56,9 @@
 		58161EA522186A7600423400 = {
 			isa = PBXGroup;
 			children = (
-				58161EB022186A7700423400 /* DecodersDemo */,
+				58A44867221B2F86005139C3 /* DecodersDemo */,
 				58161EAF22186A7700423400 /* Products */,
+				58A44855221B2F01005139C3 /* DecodersDemo-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,38 +70,47 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		58161EB022186A7700423400 /* DecodersDemo */ = {
+		58A44867221B2F86005139C3 /* DecodersDemo */ = {
 			isa = PBXGroup;
 			children = (
-				58AA346622199FFD003C1ABF /* Controller */,
-				58B4538322195149002E8756 /* Model */,
-				58161EB122186A7700423400 /* AppDelegate.swift */,
-				58161EB522186A7700423400 /* Main.storyboard */,
-				58161EBB22186A7700423400 /* Assets.xcassets */,
-				58161EBD22186A7700423400 /* LaunchScreen.storyboard */,
-				58161EC022186A7700423400 /* Info.plist */,
-				58161EB822186A7700423400 /* DecodersDemo.xcdatamodeld */,
+				58A44894221B3081005139C3 /* Info.plist */,
+				58A44868221B2FBA005139C3 /* AppDelegate.swift */,
+				58A4486D221B2FBA005139C3 /* DecodersDemo.xcdatamodeld */,
+				58A44881221B3029005139C3 /* Assets.xcassets */,
+				58A4488D221B3054005139C3 /* Model */,
+				58A44882221B3029005139C3 /* Base.lproj */,
+				58A44883221B3029005139C3 /* Controller */,
+				58A44870221B2FBA005139C3 /* Podfile */,
 			);
-			path = DecodersDemo;
+			name = DecodersDemo;
 			sourceTree = "<group>";
 		};
-		58AA346622199FFD003C1ABF /* Controller */ = {
+		58A44882221B3029005139C3 /* Base.lproj */ = {
 			isa = PBXGroup;
 			children = (
-				58161EB322186A7700423400 /* ViewController.swift */,
-				58B4538122193938002E8756 /* ChatVC.swift */,
-				58AA346422199FD8003C1ABF /* CodesVC.swift */,
-				58EBD1192219A4E1005CF14D /* CodesTVC.swift */,
+				58A44897221B327F005139C3 /* LaunchScreen.storyboard */,
+				58A44899221B3280005139C3 /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		58A44883221B3029005139C3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				58A44884221B3029005139C3 /* ViewController.swift */,
+				58A44885221B3029005139C3 /* CodesTVC.swift */,
+				58A44886221B3029005139C3 /* CodesVC.swift */,
+				58A44887221B3029005139C3 /* ChatVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		58B4538322195149002E8756 /* Model */ = {
+		58A4488D221B3054005139C3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				58B4538422195173002E8756 /* Chats.swift */,
-				58B4538622197E0A002E8756 /* Codes.swift */,
-				58B4537F22193693002E8756 /* FIleToDownloadData.swift */,
+				58A4488E221B3054005139C3 /* FIleToDownloadData.swift */,
+				58A4488F221B3054005139C3 /* Chats.swift */,
+				58A44890221B3054005139C3 /* Codes.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -127,12 +141,16 @@
 		58161EA622186A7600423400 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Varender Singh";
 				TargetAttributes = {
 					58161EAD22186A7700423400 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -160,9 +178,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58161EBF22186A7700423400 /* LaunchScreen.storyboard in Resources */,
-				58161EBC22186A7700423400 /* Assets.xcassets in Resources */,
-				58161EB722186A7700423400 /* Main.storyboard in Resources */,
+				58A44896221B30A9005139C3 /* Info.plist in Resources */,
+				58A4489C221B3280005139C3 /* Main.storyboard in Resources */,
+				58A4489B221B3280005139C3 /* LaunchScreen.storyboard in Resources */,
+				58A44878221B2FBA005139C3 /* Podfile in Resources */,
+				58A44888221B3029005139C3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,35 +193,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58B4538022193693002E8756 /* FIleToDownloadData.swift in Sources */,
-				58EBD11A2219A4E1005CF14D /* CodesTVC.swift in Sources */,
-				58161EBA22186A7700423400 /* DecodersDemo.xcdatamodeld in Sources */,
-				58B4538522195173002E8756 /* Chats.swift in Sources */,
-				58161EB422186A7700423400 /* ViewController.swift in Sources */,
-				58B4538722197E0A002E8756 /* Codes.swift in Sources */,
-				58161EB222186A7700423400 /* AppDelegate.swift in Sources */,
-				58B4538222193938002E8756 /* ChatVC.swift in Sources */,
-				58AA346522199FD8003C1ABF /* CodesVC.swift in Sources */,
+				58A44891221B3054005139C3 /* FIleToDownloadData.swift in Sources */,
+				58A44893221B3054005139C3 /* Codes.swift in Sources */,
+				58A44892221B3054005139C3 /* Chats.swift in Sources */,
+				58A4488C221B3029005139C3 /* ChatVC.swift in Sources */,
+				58A4488B221B3029005139C3 /* CodesVC.swift in Sources */,
+				58A4488A221B3029005139C3 /* CodesTVC.swift in Sources */,
+				58A44889221B3029005139C3 /* ViewController.swift in Sources */,
+				58A44871221B2FBA005139C3 /* AppDelegate.swift in Sources */,
+				58A44876221B2FBA005139C3 /* DecodersDemo.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		58161EB522186A7700423400 /* Main.storyboard */ = {
+		58A44897221B327F005139C3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				58161EB622186A7700423400 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		58161EBD22186A7700423400 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				58161EBE22186A7700423400 /* Base */,
+				58A44898221B327F005139C3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		58A44899221B3280005139C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58A4489A221B3280005139C3 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -318,12 +338,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JSK2M8PGB8;
-				INFOPLIST_FILE = DecodersDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NoOrganization.DecodersDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DecodersDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -333,12 +357,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JSK2M8PGB8;
-				INFOPLIST_FILE = DecodersDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NoOrganization.DecodersDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DecodersDemo-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -368,12 +395,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		58161EB822186A7700423400 /* DecodersDemo.xcdatamodeld */ = {
+		58A4486D221B2FBA005139C3 /* DecodersDemo.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				58161EB922186A7700423400 /* DecodersDemo.xcdatamodel */,
+				58A4486E221B2FBA005139C3 /* DecodersDemo.xcdatamodel */,
 			);
-			currentVersion = 58161EB922186A7700423400 /* DecodersDemo.xcdatamodel */;
+			currentVersion = 58A4486E221B2FBA005139C3 /* DecodersDemo.xcdatamodel */;
 			path = DecodersDemo.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
